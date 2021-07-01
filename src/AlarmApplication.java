@@ -19,14 +19,6 @@ public class AlarmApplication {
                     alarmClock.setAlarmTime(i, alarms[i].getTime(), true, 0, false);
                 }
             }
-
-            for (Alarm alarm : alarmClock.getAlarmTimes()) {
-                if(alarm.isSet() && alarmClock.getCurrentTime().equals(alarm.getTime()))
-                    System.out.println("Ring RING");
-                if (alarm.isSet() && alarm.isSnooze()){
-                    alarmClock.setAlarmTime(, );
-                }
-            }
         }
     }
 
