@@ -8,7 +8,7 @@ public class Main {
         simpleTime.add(new SimpleTime(10, 52, 10));
         System.out.println(simpleTime);
 
-        ExtendedTime extendedTime = new ExtendedTime(17, 12, 50, false);
+        ExtendedTime extendedTime = new ExtendedTime(15, 12, 50, false);
         System.out.println(extendedTime);
     }
 }
